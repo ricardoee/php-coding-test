@@ -26,18 +26,21 @@ Write a simple bit of PHP, there is no need to render any output as such, it’s
  * Here's the detail of the incoming data.
  *
  * Q:  Write some code which will receive some form input and store it in a database.
- *.       Name (string)
- *.       Company (string)
- *.       Latitude (float)
- *.       Longitude (float)
- *.       List of pollutant & quantity (two arrays)
- *.       Date (string)
- *.       Time (string)
- *.       Comments (string)
+ *
+ * Form input fields are;
+ *
+ *       Name (string)
+ *       Company (string)
+ *       Latitude (float)
+ *       Longitude (float)
+ *       List of pollutant & quantity (two arrays, for example; ['NO2', 'PM2.5'] and [12.4, 15.6])
+ *       Date (string)
+ *       Time (string)
+ *       Comments (string)
  * 
  * All supplied in an $input array
  * 
- * Assume $db is a new PDO() object
+ * Assume $db is a new PDO() object or your favourite ORM
  */
 <?php
 ```
