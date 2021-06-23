@@ -27,7 +27,7 @@ Write a simple bit of PHP, there is no need to render any output as such, it’s
  *
  * Q:  Write some code which will receive some form input and store it in a database.
  *
- * Form input fields are;
+ * HTML Form input fields are;
  *
  *       Full Name (string)
  *       Company (string)
