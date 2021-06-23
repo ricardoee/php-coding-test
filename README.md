@@ -29,14 +29,14 @@ Write a simple bit of PHP, there is no need to render any output as such, it’s
  *
  * Form input fields are;
  *
- *       Name (string)
+ *       Full Name (string)
  *       Company (string)
- *       Latitude (float)
- *       Longitude (float)
- *       List of pollutant & quantity ( two arrays, for example; [['NO2', 'PM2.5'], [12.4, 15.6]] )
- *       Date (string)
- *       Time (string)
- *       Comments (string)
+ *       Latitude (float)  - of the facility producing the emissions
+ *       Longitude (float) - of the facility producing the emissions
+ *       List of pollutants & related emission reading - Two arrays, for example; [['NO2', 'PM2.5'], [12.4, 15.6]]
+ *       Date (string) - date the emission reading was taken 
+ *       Time (string) - time the emission reading was taken (on an hourly basis)
+ *       Comments (string) - simple comment for the whole of the hourly submission
  * 
  * All supplied in an $input array
  * 
