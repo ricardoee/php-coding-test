@@ -33,7 +33,7 @@ Write a simple bit of PHP, there is no need to render any output as such, it’s
  *       Company (string)
  *       Latitude (float)
  *       Longitude (float)
- *       List of pollutant & quantity (two arrays, for example; ['NO2', 'PM2.5'] and [12.4, 15.6])
+ *       List of pollutant & quantity ( two arrays, for example; [['NO2', 'PM2.5'], [12.4, 15.6]] )
  *       Date (string)
  *       Time (string)
  *       Comments (string)
